@@ -1,0 +1,81 @@
+{
+    "student_metadata": {
+      "name": "Aryan Jangde",
+      "roll_number": "230084",
+      "course": "Advanced Machine Learning",
+      "exam": "Mid-Semester Examination",
+      "part": "Part A",
+      "submission_date": "2026-03-03"
+    },
+    "llm_tools_used": [
+      {
+        "tool_name": "ChatGPT",
+        "model": "GPT-5",
+        "provider": "OpenAI"
+      }
+    ],
+    "full_llm_interaction_log": [
+      {
+        "interaction_id": 1,
+        "date": "2026-03-03",
+        "tool_name": "ChatGPT",
+        "model": "GPT-5",
+        "purpose": "Finding suitable classical ML papers (2010–2012) that are peer-reviewed, non-deep learning, and not present in the uploaded submission sheet.",
+        "prompt": "the golden age of classical ml is said to be the time between 2010 - 12, As a great admirer of this I want you to suggest some published, peer reviewed research paper. Also these paper should not be present in this excel sheet.",
+        "llm_response_used": "Yes",
+        "how_it_helped": "Provided multiple classical ML papers from 2010–2012 (optimization, Bayesian methods, clustering) and ensured they were not present in the uploaded sheet.",
+        "student_verification": "Manually cross-checked suggested papers against uploaded submission sheet and verified venue/year.",
+        "confidence_level": 5
+      },
+      {
+        "interaction_id": 2,
+        "date": "2026-03-03",
+        "tool_name": "ChatGPT",
+        "model": "GPT-5",
+        "purpose": "Clarifying what 'primary methodological contribution' means in research context.",
+        "prompt": "Is the primary contribution of this paper methodological? what is the meaning of this",
+        "llm_response_used": "Yes",
+        "how_it_helped": "Explained difference between methodological, theoretical, empirical, and systems contributions. Helped classify selected paper correctly.",
+        "student_verification": "Cross-checked explanation with paper structure (algorithm proposal, modeling contribution).",
+        "confidence_level": 5
+      },
+      {
+        "interaction_id": 3,
+        "date": "2026-03-03",
+        "tool_name": "ChatGPT",
+        "model": "GPT-5",
+        "purpose": "Understanding details of the selected paper 'Copula Mixture Model for Dependency-seeking Clustering'.",
+        "prompt": "what can you say about this paper • Title: Copula Mixture Model for Dependency-seeking Clustering",
+        "llm_response_used": "Yes",
+        "how_it_helped": "Provided publication venue (ICML 2011), explained core idea (copula-based mixture modeling for multi-view dependency clustering), clarified that it is a methodological classical ML paper and CPU reproducible.",
+        "student_verification": "Checked ICML 2011 publication details and confirmed modeling framework (copula + mixture + EM inference) directly from paper.",
+        "confidence_level": 5
+      }
+    ],
+    "top_5_prompts": [
+      {
+        "rank": 1,
+        "interaction_id": 1,
+        "prompt": "the golden age of classical ml is said to be the time between 2010 - 12, As a great admirer of this I want you to suggest some published, peer reviewed research paper. Also these paper should not be present in this excel sheet.",
+        "why_important": "Directly helped identify suitable classical ML papers (2010–2012) that satisfy venue and non-duplication constraints."
+      },
+      {
+        "rank": 2,
+        "interaction_id": 3,
+        "prompt": "what can you say about this paper • Title: Copula Mixture Model for Dependency-seeking Clustering",
+        "why_important": "Helped deeply understand the selected paper’s contribution, modeling framework, and suitability for submission."
+      },
+      {
+        "rank": 3,
+        "interaction_id": 2,
+        "prompt": "Is the primary contribution of this paper methodological? what is the meaning of this",
+        "why_important": "Clarified how to categorize the paper’s contribution type correctly in the exam form."
+      }
+    ],
+    "student_declaration": {
+      "statement": "I declare that this JSON file contains a complete and honest record of my LLM usage for Part A.",
+      "understanding_acknowledged": true,
+      "signature": "Your Full Name",
+      "date": "2026-03-03"
+    }
+  }
